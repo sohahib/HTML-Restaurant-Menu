@@ -5,7 +5,9 @@ body {
     background-color: beige;
     text-align: center;
 }
-
+.nav-item-highlighted{
+    color: darkred;
+}
 h1,
 h2 {
     color: darkred;
@@ -26,9 +28,14 @@ img {
 main {
     margin: 0 20%;
 }
-
+.close-banner{
+    color: red;
+    margin: 10px 0;
+    background-color: rosybrown;
+    width: 100vw;
+}
 nav {
-    background-color: beige;
+    background-color:azure;
     padding: 10px;
 }
 
@@ -83,4 +90,19 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    width: 100%;
+    background-color:lightslategray;
+    padding: 10px 0;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+footer a img{
+    height: 50px;
+    width: 50px;
 }
