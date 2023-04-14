@@ -31,7 +31,7 @@ main {
 .close-banner{
     color: red;
     margin: 10px 0;
-    background-color: rosybrown;
+    background-color: darkred;
     width: 100vw;
 }
 nav {
@@ -97,7 +97,7 @@ footer{
     align-items: center;
     color: aliceblue;
     width: 100%;
-    background-color:lightslategray;
+    background-color: darkred;;
     padding: 10px 0;
     margin: 20px 0;
     box-sizing: border-box;
